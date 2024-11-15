@@ -40,16 +40,16 @@ export class RootComponent extends LitElement {
         let pageTemplate = nothing
 
         switch (this.currentPage) {
-            case 'homepage':
+            case 'seminuevos': 
                 pageTemplate = html`<agencia-seminuevos></agencia-seminuevos>`
                 break;
-            case 'bio':
+            case 'sedan':
                 pageTemplate = html`<autos-sedan></autos-sedan>`
                 break;
-            case 'lit':
+            case 'pick-up':
                 pageTemplate = html`<pick-up></pick-up>`
                 break;
-            case 'react':
+            case 'camiones':
                 pageTemplate = html`<camiones-trabajo></camiones-trabajo>`
                 break;    
 

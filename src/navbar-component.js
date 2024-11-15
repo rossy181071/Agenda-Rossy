@@ -11,19 +11,19 @@ export class NavbarComponent extends LitElement {
         super()
         this.pages = [
         {
-            url: 'homepage',
+            url: 'seminuevos',
             title:'Agencia Seminuevos'
         },
         {
-            url: 'bio',
+            url: 'sedan',
             title: 'Autos Sedan'
         },
         {
-            url: 'lit',
+            url: 'pick-up',
             title: 'Pick Up'
         },
         {
-            url: 'react',
+            url: 'camiones',
             title: 'Camiones'
         }
         
@@ -60,7 +60,7 @@ export class NavbarComponent extends LitElement {
     render() {
         return html`
         <div id="navbar-container">
-        ${this.pages.map(page => html`<h2 id="${page.url}" @click="${this.triggerPageChange}">${page.title}</h2>`)}
+          ${this.pages.map(page => html`<h2 id="${page.url}" @click="${this.triggerPageChange}">${page.title}</h2>`)}
         </div>
         `
     }
