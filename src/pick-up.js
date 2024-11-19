@@ -39,6 +39,7 @@ constructor () {
     super()
     this.title0 = "Pick Up"
     this.paragraph0 = "Tenemos Pick Up 4 puertas, Cabina Sencilla, y Pick Up Diesel"
+    
 
     this.title1="Pick Up 2025 Cabina sencilla"
     this.paragraph1 = "La cantidad de caballos de fuerza de una camioneta pick up cabina sencilla 2025 varía según el modelo, Nissan Frontier 2025: Tiene 310 caballos de fuerza y 281 lb-ft de torque."
