@@ -47,7 +47,7 @@ export class CamionesTrabajo extends LitElement {
 
     render() {
         return html`
-        <div id="camiones">
+        <div id="camiones-container">
             <h1>${this.title0}</h1>
             <p>${this.paragraph0}</p>
 
