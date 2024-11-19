@@ -47,7 +47,6 @@ export class AutosSedan extends LitElement {
 
         this.title1 = "Sentra 2025  5 puertas "
         this.paragraph1 = "Motor de 2.0 litros y 4 cilindros ,149 caballos de fuerza a 6,000 RPM ,146 libras-pie de torque,Transmisión Xtronic CVT ,Sistema de control de tracción (TCS) ,Pantalla táctil a color de 7 con integración Apple CarPlay® & Android Auto™ ,Sistema Idle Stop/Start ,Modo de manejo ECO y Sport ,Suspensión trasera deportiva multienlace ,Dirección avanzada ,El Sentra 2025 también cuenta con tecnologías para la conducción dinámica, como: Freno inteligente de motor, Control inteligente de trazo, Control de marcha activo, Asistente de subida y bajada en pendiente "
-
         this.imgUrl1 = " https://i.ytimg.com/vi/X2F9JNcsUDk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCZoRa2DAJLJEpdkPmz9Wqv3w08iQ "
 
         this.title2 = "Versa 2025 "
